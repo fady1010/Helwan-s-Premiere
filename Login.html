@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="Images2/logo.png">
+    <title>Login</title>
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="news.html">News</a>
+<a href="matches.html">Matches</a>
+<a href="TheLeague.html">The League</a>
+<a href="HistoricRecords.html">Historic Records</a>
+<a href="Best Goals.html">Best Goals</a>
+<a href="market.html">Market Value</a>
+<a href="transfers.html">Transfers</a>
+<a href="survey.html">Survey</a>
+<a href="stadium.html">Stadiums</a>
+<a href="registration.html">Register</a>
+<a href="Feedback.html">Feedback</a>
+<a href="HallofFame.html">Hall of Fame</a>
+  </div>
+  <div id="main">
+  <div class="mainbar">
+    <span id="menuicon" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <a class="logo" href="index.html">
+       <img width="140px" height="88px" src="Images2/logo.png">
+    </a>
+    <div id="login-search">
+      <div class="search-container">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+        </form>
+      </div>
+    </div>
+  </div>
+<br><br> <h1>Login</h1><br>    
+<div class="login">    
+<form id="login" method="get" action="login.php">    
+    <label><b>User Name     
+    </b>    
+    </label>    
+    <input type="text" name="Uname" id="Uname" placeholder="Username">    
+    <br><br>    
+    <label><b>Password     
+    </b>    
+    </label>    
+    <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+    <br><br>    
+    <input type="button" name="log" id="log" value="Log In Here">       
+    <br><br>    
+    <input type="checkbox" id="check">    
+    <span>Remember me</span>    
+    <br><br>    
+    <a href="#" class="forgot">Forgot Your Password ?</a>  
+    <br><br>
+    <a href="registration.html" class="forgot">Don't have an account ? Sign Up Now!</a>  
+</form>
+</div>
+<footer>
+    <div class="footer-content">
+      <div class="logo" id="footer-logo">
+        <a id="nano55" href="index.html">
+        <img width="140px" height="88px" src="Images2/logo.png">
+        </a>
+      </div>
+      <div class="links">
+        <br><br><br><br><br>
+        <ul>
+          <il><a href="stadium.html" class="list">Stadiums</a></il>
+          <il><a href="survey.html" class="list">Survey</a></il>
+          <il><a href="Best Goals.html" class="list">Goals</a></il>
+          <il><a href="HistoricRecords.html" class="list">Records</a></il>
+          <il><a href="index.html" class="list">Home</a></il>
+        </ul>
+      </div>
+      <div class="socials">
+        <a href="facebook.com" id="socials-icon"><i class="fa fa-facebook"></i></a>
+        <a href="instagram.com" id="socials-icon"><i class="fa fa-instagram"></i></a>
+        <a href="youtube.com" id="socials-icon"><i class="fa fa-youtube"></i></a>
+        <a href="twitter.com" id="socials-icon"><i class="fa fa-twitter"></i></a>
+      </div>
+    </div>
+      <div class="footer-signature">
+        &copy; Helwan-Premiere.com | Designed by Fady Milad
+      </div>
+    </footer>
+<script src="Login.js"></script>
+</body>
+</html>

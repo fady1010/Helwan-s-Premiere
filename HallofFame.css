@@ -1,0 +1,233 @@
+body{
+    background-image: linear-gradient(to right, #1F6E72, #C5DFBA);
+    overflow-x: hidden;
+    margin: 0;
+}
+.head{
+    text-align: center;
+    text-shadow: 1px 1px red;
+    font-size: 50px;
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: rgba(104, 13, 13, 0.1);
+    border: 2px solid rgba(0,0,0,.1) ;
+    border-radius: 50px ;
+    padding: 12px;
+}
+.table_content{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 17px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 20px rgb(64, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table_content thead tr{
+    background-color: #009789;
+    color: #ffffff;
+    text-align: left;
+    font-weight:800;
+    font-size: 25px;
+}
+.table_content th,
+.table_content td{
+    padding: 15px 20px;
+    border: 2.5px solid rgb(64, 61, 61);
+
+}    
+.table_content tbody tr{
+    border-bottom: 3px solid #dddddd;
+}
+.table_content tbody tr:last-of-type{
+    border-bottom:2px solid #009789 ;
+}
+.images{
+    width: 300px;
+    height: 100%;
+    padding: 20px
+}
+.text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+.player{
+    text-align: center;
+}
+.video{
+    width: 450px;
+    height: auto;
+}
+.des{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 20px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+#menuicon {
+  float: left ;
+  color: aliceblue;
+  margin-left: 6px;
+  margin-top: 10px;
+  }
+  .mainbar {
+    background-color: black;
+    overflow: hidden;
+    font-family: droidLight ,arial ;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+  }
+.content {
+  margin-top: 85px ;
+}
+#login {
+  float: right;
+  color:snow;
+  font-size: large;
+  margin-top: 23px;
+  text-decoration: none;
+}
+.mainbar input[type=text] {
+  float: right;
+  border: 1px snow;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  margin-left: 4px;
+  font-size: 12px;
+  height:29px;
+}
+.mainbar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 18px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.mainbar .search-container button:hover {
+  background: #ccc;
+}
+.logo {
+  position: absolute;
+  left: 45%;
+   
+}
+
+.all {
+    padding-top: 50px;
+}
+
+footer {
+  background: #303036;
+  color: #d3d3d3;
+  height: 300px;
+  position: absolute ;
+  bottom: -10px;
+  width: 100vw;
+  align-items: center;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.footer-bottom {
+  background: #343a40;
+  color: #686868;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-signature {
+  padding-left: 540px;
+}
+
+#footer-logo {
+  margin-left: -30px;
+  top: 0;
+}
+.links {
+  padding: 20px;
+  background-color: #303036;
+}
+.links a {
+  text-decoration: none;
+}
+.list {
+    padding: 5px;
+    font-size: 20px;
+    background-color: #303036;
+    color: #fff;
+}
+.list:hover {
+    font-weight: bold;
+}
+.socials {
+  background-color: #303036;
+  padding: 20px;
+  margin-left: 40px;
+}
+#socials-icon {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    background-color: #303036;
+    color: white;
+}
+
+.footall {
+  top: 2250px;
+}
+
+.footerscroll {
+  overflow-y: hidden;
+}
